@@ -1,29 +1,26 @@
 body{
     margin: 0 auto;
     color: #0a6395;
+    height: 774px;
+    width: 363px;
     background-color: rgb(90, 87, 87);
 }
 
 .outer_frame {
-    /*Positioning*/
-    margin-top: 50px;
-    margin-left: 40%;
-    padding: 16px 25px 25px 22px;
-    /*Box-model*/
-    /*Typography*/
-    height: 774px;
-    width: 363px;
-    /*Visual*/
+    padding: 16px 25px 26px 22px;
+    height: 100%;
+    box-sizing: border-box;
     background-color: white;
 }
 
 .inner_frame {
-    height: 738px;
+    height: 100%;
+    width: 100%;
     background-color: #e6f3fb;
 }
 
 .inner_content{
-    padding: 6px 9px 0px 11px;
+    padding: 5px 9px 16px 11px;
 }
 
 .con_title{
@@ -51,8 +48,9 @@ body{
 }
 
 .centop_right{
+    margin-left: 16px;
     float: left;
-    width: 45%;
+    width: 35%;
 }
 
 .cent_top {
@@ -60,6 +58,7 @@ body{
 }
 
 .cent_bot {
+    margin-top: 3px;
     height: 50%;
    background-color: #f9f1c2; 
 }
@@ -73,6 +72,10 @@ body{
     height: 33.33%;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+}
+
+.content2 {
+    margin-top: 3px;
 }
 
 .con_center2 {
@@ -98,7 +101,11 @@ body{
 .img_cont2{
     width: 75%;
     margin-left: 14px;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+.info_basic {
+    margin-top: -8px;
 }
 
 .author_cont2 {
@@ -124,18 +131,17 @@ p{
 }
 
 .cent_bot2{
-    
-    height: 47px;
+    height: 48px;
     background-image: url("assets/bnr_footer_conten2.png");
     background-repeat: repeat;
-    background-size: 344px 47px;
+    background-size: 344px 48px;
 }
 
 .text_footer2{
-    padding-top: 13px;
-    padding-left: 23px;
-    padding-right: 134px;
-    padding-bottom: 10px;
+    padding-top: 11px;
+    padding-left: 22px;
+    padding-right: 132px;
+    padding-bottom: 8px;
 }
 
 .cont_tx{
@@ -151,6 +157,9 @@ p{
     color: #0a6395;
 }
 
+.content3 {
+    margin-top: 12px;
+}
 .con_center3 {
     border-top: 4px solid #f7a418;
     background-image: url("assets/bnr_footer_content3.png");
@@ -175,8 +184,12 @@ p{
     width: 125px;
 }
 
+.content4 {
+    margin-top: -3px;
+}
+
 .frame_content4 {
-    border-top: 1px solid;
+    border-top: 1px solid black;
     margin-top: 10px;
 }
 
@@ -187,12 +200,12 @@ h4 {
 
 .text_content4 {
     height: 78px;
-    width: 343px;
+    width: 100%;
     background-color: white;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
+    border-bottom: 1px solid #595959;
+    border-top: 1px solid #595959;
+    border-left: 1px solid #595959;
+    border-right: 1px solid #595959;
 }
 
 .list_text4{
